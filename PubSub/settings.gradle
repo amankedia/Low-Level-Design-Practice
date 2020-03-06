@@ -1,0 +1,4 @@
+rootProject.name = 'untitled'
+include 'publisher'
+findProject(':publisher')?.name = 'pub'
+
